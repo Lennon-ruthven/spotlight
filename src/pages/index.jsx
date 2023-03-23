@@ -243,7 +243,7 @@ export default function Home({ articles }) {
             Spirituality promoting, philosophically living, movement enthusiast.
           </h1>
           <p className="mt-6 prose dark:prose-invert">
-            I’m Lennon, and I teach strategies to overcome life&apos;s hardships. As an advocate for conscious evolution, I discourage inaction, perpetual suffering and mindless activity.
+            I&apos;m Lennon, and I teach strategies to overcome life&apos;s hardships. As an advocate for conscious evolution, I discourage inaction, perpetual suffering and mindless activity.
           </p>
           <p className="mt-6 prose dark:prose-invert">
             One of my most recent achievements is achieving an A* in Health and Social care. I'm documenting where life takes me along this physical journey; at all stations where we believe life has beat us down, is an opportunity for growth.
