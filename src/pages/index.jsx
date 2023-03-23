@@ -240,7 +240,7 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl text-lg">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Spirituality promoting, philosophically living, movement enthusiast.
+            A Spirituality promoting movement enthusiast.
           </h1>
           <p className="mt-6 prose dark:prose-invert">
             I&apos;m Lennon, and I teach strategies to overcome life&apos;s hardships. As an advocate for conscious evolution, I discourage inaction, perpetual suffering and mindless activity.
