@@ -75,7 +75,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I'm Lennon. I live in England
+              I&apos;m Lennon. I live in England
             </h1>
             <div className="mt-6 text-lg prose space-y-7 dark:prose-invert text-zinc-600 dark:text-zinc-400">
               <p>
@@ -98,7 +98,7 @@ export default function About() {
                 I overcame my smoking addiction.
               </p>
               <p>
-                I learn't that we can live better lives under the roof of truth; the only opportunity we have in this lifetime is to evolve with the truth because through truth do we evolve.
+                I learn&apos;t that we can live better lives under the roof of truth; the only opportunity we have in this lifetime is to evolve with the truth because through truth do we evolve.
               </p>
             </div>
           </div>
