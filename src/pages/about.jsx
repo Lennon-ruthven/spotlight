@@ -44,7 +44,7 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About - Brian Ketelsen"
+        title="About - Lennon Ruthven"
         description={siteMeta.description}
         canonical="https://brian.dev/about"
         openGraph={{
@@ -75,36 +75,30 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Brian Ketelsen. I live in Florida, where I help people
-              across the world learn the Cloud.
+              I'm Lennon. I live in England
             </h1>
             <div className="mt-6 text-lg prose space-y-7 dark:prose-invert text-zinc-600 dark:text-zinc-400">
               <p>
-                Howdy! Thanks for stopping by. I’m Brian and I’ve been doing technology
-                things since <a href="https://en.wikipedia.org/wiki/Acoustic_coupler">acoustic
-                  modem couplers</a> were a thing. I love Open Source and exploring different programming languages.
-                Some highlights about me and my activities:
+                The questions, "why do I see through my eyes and not yours?" and 
+              "what am I doing here?" were prominent for me at 14 years old. 
+             </p>
+	      <p>
+		I ruminated on these questions, be it while star-gazing, or while faced-up, in bed, looking at the ceiling.
+              </p>
+	      <p>
+                <b>I sought answers.</b>
               </p>
               <p>
-                <b>Army Veteran:</b> Bradley Fighting Vehicle Gunner, Infantry, 1st Armored Division
+                I began experimenting with psychedelics.
               </p>
               <p>
-                <b>Father of <s>four</s> five</b> with <s>19</s> 21 years difference between oldest and youngest child
+                I began lucid dreaming and astral projecting.
               </p>
               <p>
-                <b>Co-founded GopherCon</b> <a href="https://gophercon.com">the largest conference for Go developers</a>.
+                I overcame my smoking addiction.
               </p>
               <p>
-                <b>Co-authored</b> <a href="https://www.amazon.com/Go-Action-William-Kennedy/dp/1617291781">Go In Action</a> for Manning Publishing.
-              </p>
-              <p>
-                <b>Co-wrote</b> Skynet and SkyDNS with Erik St. Martin, which was eventually morphed into the DNS service discovery that powers Kubernetes.
-              </p>
-              <p>
-                <b>Contributed</b> to the largest projects that power the Internet. Go, Kubernetes, Etcd, and so many more.
-              </p>
-              <p>
-                I love Open Source, learning in public, and sharing what I learn with others.
+                I learn't that we can live better lives under the roof of truth; the only opportunity we have in this lifetime is to evolve with the truth because through truth do we evolve.
               </p>
             </div>
           </div>
@@ -113,14 +107,8 @@ export default function About() {
               <SocialLink href={siteMeta.author.twitter} icon={TwitterIcon}>
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href={siteMeta.author.mastodon} icon={MastodonIcon} className="mt-4">
-                Follow on Mastodon
-              </SocialLink>
               <SocialLink href={siteMeta.author.instagram} icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
-              </SocialLink>
-              <SocialLink href={siteMeta.author.github} icon={GitHubIcon} className="mt-4">
-                Follow on GitHub
               </SocialLink>
               <SocialLink href={siteMeta.author.linkedin} icon={LinkedInIcon} className="mt-4">
                 Follow on LinkedIn

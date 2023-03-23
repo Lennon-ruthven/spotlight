@@ -118,7 +118,7 @@ function Newsletter() {
     >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <MailIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Stay up to date</span>
+        <span className="ml-3">Stay up to date (UNDER CONSTRUCTION 🚧) </span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
         Get notified when I publish something new, and unsubscribe at any time.
@@ -145,7 +145,7 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Education</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -220,11 +220,11 @@ export default function Home({ articles }) {
   return (
     <>
     <NextSeo
-      title="Brian Ketelsen"
+      title="Lennon Ruthven"
       description={siteMeta.description}
-      canonical="https://brian.dev/"
+      canonical="https://lennonruthven.me/"
       openGraph={{
-        url: 'https://brian.dev',
+        url: 'https://lennonruthven.me/',
         images: [
           {
             url: `https://og.brian.dev/api/og?title=${siteMeta.title}&desc=${siteMeta.description}`,
@@ -234,23 +234,22 @@ export default function Home({ articles }) {
             type: 'image/jpeg',
           }
         ],
-        siteName: 'brian.dev',
+        siteName: 'lennonruthven.me',
       }}
     />
       <Container className="mt-9">
         <div className="max-w-2xl text-lg">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Cloud Advocate, hacker, and open source enthusiast.
+            Spirituality promoting, philosophically living, movement enthusiast.
           </h1>
           <p className="mt-6 prose dark:prose-invert">
-            I’m Brian, and I teach people how to use the Cloud. I’ve been active in Open Source for as long as I’ve been coding &mdash; and that’s a long time.
+            I’m Lennon, and I teach strategies to overcome life's hardships. As an advocate for conscious evolution, I discourage inaction, perpetual suffering and mindless activity.
           </p>
           <p className="mt-6 prose dark:prose-invert">
-            With some friends, I wrote a <a href="https://www.manning.com/books/go-in-action">book about the Go programming language</a>.
-             I’ve given many <Link href={"/speaking"} >talks</Link> about Go, Distributed Computing, and programming in general.
+            One of my most recent achievements is achieving an A* in Health and Social care. I'm documenting where life takes me along this physical journey; at all stations where we believe life has beat us down, is an opportunity for growth.
           </p>
           <p className="mt-6 prose dark:prose-invert">
-            Poke around and see what I’m up to. It’s all open source, so feel free to contribute.
+            Currently, I write and share on twitter, but am working on producing articles based on addiction and mindset. Feel free to DM!
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -259,21 +258,9 @@ export default function Home({ articles }) {
               icon={TwitterIcon}
             />
             <SocialLink
-              href={siteMeta.author.mastodon}
-              aria-label="Follow on Mastodon"
-              icon={MastodonIcon}
-              rel="me"
-            />
-
-            <SocialLink
               href={siteMeta.author.instagram}
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            />
-            <SocialLink
-              href="https://github.com"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
             />
             <SocialLink
               href={siteMeta.author.linkedin}
