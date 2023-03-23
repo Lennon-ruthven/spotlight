@@ -79,7 +79,7 @@ export default function About() {
             </h1>
             <div className="mt-6 text-lg prose space-y-7 dark:prose-invert text-zinc-600 dark:text-zinc-400">
               <p>
-                The questions, why do I see through my eyes and not yours? and 
+                The questions, "why do I see through my eyes and not yours?" and 
              what am I doing here? were prominent for me at 14 years old. 
              </p>
 	      <p>
