@@ -110,34 +110,7 @@ function SocialLink({ icon: Icon, ...props }) {
   )
 }
 
-function Newsletter() {
-  return (
-    <form
-      action="/thank-you"
-      className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
-    >
-      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <MailIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Stay up to date (UNDER CONSTRUCTION ) </span>
-      </h2>
-      <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        Get notified when I publish something new, and unsubscribe at any time.
-      </p>
-      <div className="mt-6 flex">
-        <input
-          type="email"
-          placeholder="Email address"
-          aria-label="Email address"
-          required
-          className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-zinc-500 focus:outline-none focus:ring-4 focus:ring-zinc-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-zinc-400 dark:focus:ring-zinc-400/10 sm:text-sm"
-        />
-        <Button type="submit" className="ml-4 flex-none">
-          Join
-        </Button>
-      </div>
-    </form>
-  )
-}
+
 
 function Resume() {
 
@@ -188,6 +161,41 @@ function Resume() {
     </div>
   )
 }
+
+
+function Newsletter() {
+    return (
+      <div>
+        {/* Begin Mailchimp Signup Form */}
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css" />
+        <style type="text/css" dangerouslySetInnerHTML={{__html: "\n\t#mc_embed_signup{background:#18181b; clear:left; font:12px -apple-system, BlinkMacSystemFont, sans-serif;  width:415px; border-radius: 20px;}\n\t/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */\n" }} />
+        <div id="mc_embed_signup">
+          <form action="https://twitter.us21.list-manage.com/subscribe/post?u=2084c58d7ad7179abd902c9e7&id=09b88229e6&f_id=006e89e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_self">
+            <div id="mc_embed_signup_scroll">
+              <h2>Smoke Zero</h2>
+              <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+               Get notified when I publish something new, and unsubscribe at any time.
+              </p>
+              <div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
+              <div className="mc-field-group">
+                <label htmlFor="mce-EMAIL">Email Address  <span className="asterisk">*</span>
+                </label>
+                <input type="email" defaultValue name="EMAIL" className="required email" id="mce-EMAIL" required />
+              </div>
+              <div hidden="true"><input type="hidden" name="tags" defaultValue={441924} /></div>
+              <div id="mce-responses" className="clear">
+                <div className="response" id="mce-error-response" style={{display: 'none'}} />
+                <div className="response" id="mce-success-response" style={{display: 'none'}} />
+              </div>    {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups*/}
+              <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true"><input type="text" name="b_2084c58d7ad7179abd902c9e7_09b88229e6" tabIndex={-1} defaultValue /></div>
+              <div className="clear"><input type="Subscribe" defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" /></div>
+            </div>
+          </form>
+        </div>
+        {/*End mc_embed_signup*/}
+      </div>
+    );
+  }
 
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
