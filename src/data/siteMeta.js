@@ -28,7 +28,7 @@ const siteMeta = {
  export const resume = [
     {
       company: 'Tresham College',
-      title: 'L2 ED in Health and Social Care: A*',
+      title: 'A* Health and Social Care (L2 Ext Dip)',
       logo: logoBedford,
       start: '2021',
       end: {
