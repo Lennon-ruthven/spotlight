@@ -185,7 +185,7 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="https://www.linkedin.com/in/lennon-ruthven-9238371b3/" variant="secondary" className="group mt-6 w-full">
+      <Button href="https://linkedin.com/in/brianketelsen" variant="secondary" className="group mt-6 w-full">
                More on LinkedIn 
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -224,11 +224,11 @@ export default function Home({ articles }) {
   return (
     <>
     <NextSeo
-      title="Lennon Ruthven"
+      title="Brian Ketelsen"
       description={siteMeta.description}
-      canonical="https://lennonruthven.me/"
+      canonical="https://brian.dev/"
       openGraph={{
-        url: 'https://lennonruthven.me',
+        url: 'https://brian.dev',
         images: [
           {
             url: `https://og.brian.dev/api/og?title=${siteMeta.title}&desc=${siteMeta.description}`,
@@ -238,7 +238,7 @@ export default function Home({ articles }) {
             type: 'image/jpeg',
           }
         ],
-        siteName: 'lennonruthven.me',
+        siteName: 'brian.dev',
       }}
     />
       <Container className="mt-9">
@@ -269,6 +269,7 @@ export default function Home({ articles }) {
             />
           </div>
         </div>
+      </Container>
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
