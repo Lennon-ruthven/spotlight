@@ -43,9 +43,9 @@ export default function ArticlesIndex({ articles }) {
     <NextSeo
       title="Articles - Lennon Ruthven"
       description={siteMeta.description}
-      canonical="https://brian.dev/articles"
+      canonical="https://lennonruthven.me/articles"
       openGraph={{
-        url: 'https://brian.dev/articles',
+        url: 'https://lennonruthven.me/articles',
         images: [
           {
             url: `https://og.brian.dev/api/og?title=Articles&desc=${headline}`,
@@ -55,7 +55,7 @@ export default function ArticlesIndex({ articles }) {
             type: 'image/jpeg',
           }
         ],
-        siteName: 'brian.dev',
+        siteName: 'lennonruthven.me',
       }}
     />
       <SimpleLayout
