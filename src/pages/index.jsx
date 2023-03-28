@@ -129,7 +129,7 @@ function Newsletter() {
           placeholder="Email address"
           aria-label="Email address"
           required
-          className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm"
+          className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-zinc-500 focus:outline-none focus:ring-4 focus:ring-zinc-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-zinc-400 dark:focus:ring-zinc-400/10 sm:text-sm"
         />
         <Button type="submit" className="ml-4 flex-none">
           Join
@@ -195,7 +195,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {[image2].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
@@ -240,7 +240,7 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl text-lg">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            A Spirituality-promoting movement-enthusiast.
+            Spirituality promoting, philosophically living, movement enthusiast.
           </h1>
           <p className="mt-6 prose dark:prose-invert">
             I&apos;m Lennon, and I teach strategies to overcome life&apos;s hardships. As an advocate for conscious evolution, I discourage inaction, perpetual suffering and mindless activity.
