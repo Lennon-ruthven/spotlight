@@ -199,7 +199,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {[image2].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
@@ -261,27 +261,11 @@ export default function Home({ articles }) {
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
-            <SocialLink
-              href={siteMeta.author.mastodon}
-              aria-label="Follow on Mastodon"
-              icon={MastodonIcon}
-              rel="me"
-            />
 
             <SocialLink
               href={siteMeta.author.instagram}
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            />
-            <SocialLink
-              href="https://github.com"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href={siteMeta.author.linkedin}
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
             />
           </div>
         </div>
