@@ -10,3 +10,36 @@
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
 }
+
+
+#mc_embed_signup {
+	background: #18181b;
+	color: #fff;
+	padding: 1.5rem;
+	margin-left: 0px;
+        border-radius: 25px;
+	border-width: 1px;
+        border-color: #202022;
+}
+	#mc_embed_signup input {
+		 border: medium none;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 300px;
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+	}
+		#mc_embed_signup input.email { background: #18181b }
+		#mc_embed_signup input.name { background: #18181b }
+		#mc_embed_signup input[type="Subscribe"] {
+			background: #202022;
+			color: #fff;
+			cursor: pointer;
+			font-size: 15px;
+			width: 35%;
+
+		}
