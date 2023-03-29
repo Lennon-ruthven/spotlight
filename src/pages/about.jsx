@@ -83,22 +83,22 @@ export default function About() {
              &quot;what am I doing here?&quot; were prominent for me at 14 years old. 
              </p>
 	      <p>
-		I ruminated on these questions, be it while star-gazing, or while faced-up, in bed, looking at the ceiling.
+		I ruminated on these questions.
               </p>
 	      <p>
-                <b>I sought answers.</b>
+                Then... <b>I sought answers.</b>
               </p>
               <p>
-                I began experimenting with psychedelics.
+                I began a <b>psychedelic</b> journey and a <b>metaphysical</b> journey.
               </p>
               <p>
-                I began lucid dreaming and astral projecting.
+                ...and learned through seeking objective truth do we most optimally self-improve.
               </p>
               <p>
-                I overcame my smoking addiction.
+                At 16, I stopped my smoking addiction.
               </p>
               <p>
-                I learn&apos;t that we can live better lives under the roof of truth; the only opportunity we have in this lifetime is to evolve with the truth because through truth do we evolve.
+                I have also let go of old, close friendships that no longer served I or they.
               </p>
             </div>
           </div>
