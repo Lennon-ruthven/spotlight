@@ -221,15 +221,6 @@ export default function Home({ articles }) {
       canonical="https://Lennonruthven.me/"
       openGraph={{
         url: 'https://Lennonruthven.me',
-        images: [
-          {
-            url: `https://Lennonruthven.me`,
-            width: 1200,
-            height: 600,
-            alt: 'Og Image Alt',
-            type: 'image/jpeg',
-          }
-        ],
         siteName: 'Lennonruthven.me',
       }}
     />
