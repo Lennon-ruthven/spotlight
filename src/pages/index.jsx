@@ -217,7 +217,7 @@ export default function Home({ articles }) {
     <>
     <NextSeo
       title="Lennon Ruthven"
-      description={siteMeta.description}
+      description="Help"
       canonical="https://Lennonruthven.me/"
       openGraph={{
         url: 'https://Lennonruthven.me',
