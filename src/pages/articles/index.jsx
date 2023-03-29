@@ -46,7 +46,7 @@ export default function ArticlesIndex({ articles }) {
       canonical="http://lennonruthven.me/articles"
       openGraph={{
         url: 'http://lennonruthven.me/articles',
-        siteName: 'brian.dev',
+        siteName: 'lennonruthven.me',
       }}
     />
       <SimpleLayout
