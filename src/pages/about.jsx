@@ -75,7 +75,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I&apos;m Lennon. I live in England
+              I&apos;m Lennon. I'm from England.
             </h1>
             <div className="mt-6 text-lg prose space-y-7 dark:prose-invert text-zinc-600 dark:text-zinc-400">
               <p>
@@ -83,7 +83,7 @@ export default function About() {
              &quot;what am I doing here?&quot; were prominent for me at 14 years old. 
              </p>
 	      <p>
-		I ruminated on these questions.
+		I ruminated... ruminated, and ruminated some more on these questions, all the while navigating relationships of all forms in an anti-social lifestyle.
               </p>
 	      <p>
                 Then... <b>I sought answers.</b>
@@ -98,10 +98,16 @@ export default function About() {
                 ➝ At 16, I stopped my smoking addiction.
               </p>
               <p>
+                ➝ Let go of close friendships that no longer served me or them.
+              </p>
+              <p>
                 ➝ Experientially learnt humans are not their physical bodies
               </p>
               <p>
-                ➝ Let go of close friendships that no longer served me or them.
+                ➝ Prioritized my physical health
+              </p>
+              <p>
+                I seek to help others overcome the problems I have struggled with.
               </p>
             </div>
           </div>
