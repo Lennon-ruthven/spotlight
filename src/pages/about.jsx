@@ -89,16 +89,19 @@ export default function About() {
                 Then... <b>I sought answers.</b>
               </p>
               <p>
-                I began a <b>psychedelic</b> journey and a <b>metaphysical</b> journey.
+                ➝ I began a <b>psychedelic</b> journey and a <b>metaphysical</b> journey.
               </p>
               <p>
                 ...and learned through seeking objective truth do we most optimally self-improve.
               </p>
               <p>
-                At 16, I stopped my smoking addiction.
+                ➝ At 16, I stopped my smoking addiction.
               </p>
               <p>
-                I have also let go of old, close friendships that no longer served I or they.
+                ➝ Experientially learnt humans are not their physical bodies
+              </p>
+              <p>
+                ➝ Let go of close friendships that no longer served me or them.
               </p>
             </div>
           </div>
