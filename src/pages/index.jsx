@@ -223,7 +223,7 @@ export default function Home({ articles }) {
         url: 'https://Lennonruthven.me',
         images: [
           {
-            url: `https://Lennonruthven.me/api/og?title=${siteMeta.title}&desc=${siteMeta.description}`,
+            url: `https://Lennonruthven.me`,
             width: 1200,
             height: 600,
             alt: 'Og Image Alt',
