@@ -10,7 +10,7 @@ import logoCaptainhook from '@/images/logos/captainhook.svg'
 import logoBedford from '@/images/logos/Bedford.svg'   
 const siteMeta = {
     title: "Lennon Ruthven",
-    description: "Lennon Ruthven",
+    description: "A spiritually inclined fitness enthusiast.",
     copyright: "Lennon Ruthven",
     author: {
         name: "Lennon Ruthven",
