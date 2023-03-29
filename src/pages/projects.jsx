@@ -25,19 +25,19 @@ export default function Projects() {
     <NextSeo
       title="Resources - Lennon Ruthven"
       description={siteMeta.description}
-      canonical="https://brian.dev/projects"
+      canonical="https://Lennonruthven.me/projects"
       openGraph={{
-        url: 'https://brian.dev/projects',
+        url: 'https://Lennonruthven.me/projects',
         images: [
           {
-            url: `https://og.brian.dev/api/og?title=Projects&desc=${headline}`,
+            url: `https://Lennonruthven.me/api/og?title=Projects&desc=${headline}`,
             width: 1200,
             height: 600,
             alt: 'Og Image Alt',
             type: 'image/jpeg',
           }
         ],
-        siteName: 'brian.dev',
+        siteName: 'Lennonruthven.me',
       }}
     />
       <SimpleLayout

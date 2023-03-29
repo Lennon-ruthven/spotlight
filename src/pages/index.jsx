@@ -223,14 +223,14 @@ export default function Home({ articles }) {
         url: 'https://Lennonruthven.me',
         images: [
           {
-            url: `https://og.brian.dev/api/og?title=${siteMeta.title}&desc=${siteMeta.description}`,
+            url: `https://Lennonruthven.me/api/og?title=${siteMeta.title}&desc=${siteMeta.description}`,
             width: 1200,
             height: 600,
             alt: 'Og Image Alt',
             type: 'image/jpeg',
           }
         ],
-        siteName: 'brian.dev',
+        siteName: 'Lennonruthven.me',
       }}
     />
       <Container className="mt-9">
