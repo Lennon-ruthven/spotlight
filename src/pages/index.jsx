@@ -216,12 +216,21 @@ export default function Home({ articles }) {
   return (
     <>
     <NextSeo
-      title="Articles - Lennon Ruthven"
+      title="Lennon Ruthven"
       description={siteMeta.description}
-      canonical="https://Lennonruthven.me/"
+      canonical="https://lennonruthven.me/"
       openGraph={{
-        url: 'https://Lennonruthven.me/',
-        siteName: 'Lennonruthven.me',
+        url: 'https://lennonruthven.me/',
+        images: [
+          {
+            url: `https://api.robolly.com/templates/64260c4d2aa7d7d9bc387569/render.jpg?title=Lennon+Ruthven&text+lwawgn=Spirituality%2C+Mindset+%26+Fitness`,
+            width: 1200,
+            height: 600,
+            alt: 'Og Image Alt',
+            type: 'image/jpeg',
+          }
+        ],
+        siteName: 'lennonruthven.me',
       }}
     />
       <Container className="mt-9">
