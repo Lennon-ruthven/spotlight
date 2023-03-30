@@ -216,21 +216,12 @@ export default function Home({ articles }) {
   return (
     <>
     <NextSeo
-      title="Articles - Brian Ketelsen"
+      title="Articles - Lennon Ruthven"
       description={siteMeta.description}
-      canonical="https://brian.dev/articles"
+      canonical="https://Lennonruthven.me/"
       openGraph={{
-        url: 'https://brian.dev/articles',
-        images: [
-          {
-            url: `https://og.brian.dev/api/og?title=Articles&desc=${headline}`,
-            width: 1200,
-            height: 600,
-            alt: 'Og Image Alt',
-            type: 'image/jpeg',
-          }
-        ],
-        siteName: 'brian.dev',
+        url: 'https://Lennonruthven.me/',
+        siteName: 'Lennonruthven.me',
       }}
     />
       <Container className="mt-9">
