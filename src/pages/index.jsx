@@ -216,14 +216,14 @@ export default function Home({ articles }) {
   return (
     <>
     <NextSeo
-      title={meta.title}
-      description={meta.description}
-      canonical={`https://brian.dev${router.pathname}`}
+      title="Articles - Brian Ketelsen"
+      description={siteMeta.description}
+      canonical="https://brian.dev/articles"
       openGraph={{
-        url: `https://brian.dev${router.pathname}`,
+        url: 'https://brian.dev/articles',
         images: [
           {
-            url: `https://og.brian.dev/api/og?title=${meta.title}&desc=${meta.description}&imgUrl=https://brian.dev/fixed/images/IMG_7808.png`,
+            url: `https://og.brian.dev/api/og?title=Articles&desc=${headline}`,
             width: 1200,
             height: 600,
             alt: 'Og Image Alt',
