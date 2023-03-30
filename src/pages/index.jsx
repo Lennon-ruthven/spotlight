@@ -215,15 +215,6 @@ function Photos() {
 export default function Home({ articles }) {
   return (
     <>
-    <NextSeo
-      title="Lennon Ruthven"
-      description={siteMeta.description}
-      canonical="https://Lennonruthven.me"
-      openGraph={{
-        url: 'https://Lennonruthven.me',
-        siteName: 'Lennonruthven.me',
-      }}
-    />
       <Container className="mt-9">
         <div className="max-w-2xl text-lg">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
