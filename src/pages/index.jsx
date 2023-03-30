@@ -215,6 +215,24 @@ function Photos() {
 export default function Home({ articles }) {
   return (
     <>
+    <NextSeo
+      title={meta.title}
+      description={meta.description}
+      canonical={`https://brian.dev${router.pathname}`}
+      openGraph={{
+        url: `https://brian.dev${router.pathname}`,
+        images: [
+          {
+            url: `https://og.brian.dev/api/og?title=${meta.title}&desc=${meta.description}&imgUrl=https://brian.dev/fixed/images/IMG_7808.png`,
+            width: 1200,
+            height: 600,
+            alt: 'Og Image Alt',
+            type: 'image/jpeg',
+          }
+        ],
+        siteName: 'brian.dev',
+      }}
+    />
       <Container className="mt-9">
         <div className="max-w-2xl text-lg">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
