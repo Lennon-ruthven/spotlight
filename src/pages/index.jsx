@@ -253,11 +253,6 @@ export default function Home({ articles }) {
               aria-label="Follow me on Instagram"
               icon={InstagramIcon}
             />
-            <SocialLink
-              href={siteMeta.author.spotify}
-              aria-label="Follow me on Spotify"
-              icon={SpotifyIcon}
-            />
           </div>
         </div>
       </Container>
