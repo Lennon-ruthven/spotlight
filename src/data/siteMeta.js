@@ -22,6 +22,7 @@ const siteMeta = {
         linkedin: "https://www.linkedin.com/in/lennon-ruthven-9238371b3/",
         twitch: "https://twitch.tv/",
         youtube: "https://youtube.com/",
+        spotify: "https://open.spotify.com/user/du3hv2tcogehcjz9megg0whuk/",
     },
     siteUrl: "lennonruthven.me"
 }
