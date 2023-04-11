@@ -10,7 +10,8 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
-  MastodonIcon
+  MastodonIcon,
+  SpotifyIcon
 } from '@/components/SocialIcons'
 
 
@@ -244,13 +245,18 @@ export default function Home({ articles }) {
           <div className="mt-6 flex gap-6">
             <SocialLink
               href={siteMeta.author.twitter}
-              aria-label="Follow on Twitter"
+              aria-label="Follow me on Twitter"
               icon={TwitterIcon}
             />
             <SocialLink
               href={siteMeta.author.instagram}
-              aria-label="Follow on Instagram"
+              aria-label="Follow me on Instagram"
               icon={InstagramIcon}
+            />
+            <SocialLink
+              href={siteMeta.author.spotify}
+              aria-label="Follow me on Spotify"
+              icon={SpotifyIcon}
             />
           </div>
         </div>
